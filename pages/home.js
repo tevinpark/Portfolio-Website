@@ -71,7 +71,7 @@ export default function Home() {
                   <p className="front-div-button-text">Resume</p>
                   <img
                     className="front-div-button-img"
-                    src="../images/gray.jpg"
+                    src="./images/gray.jpg"
                     alt="gray"
                   />
                 </button>
@@ -79,7 +79,7 @@ export default function Home() {
                   <p className="front-div-button-text">GitHub</p>
                   <img
                     className="front-div-button-img"
-                    src="../images/gray.jpg"
+                    src="./images/gray.jpg"
                     alt="gray"
                   />
                 </button>
@@ -87,7 +87,7 @@ export default function Home() {
                   <p className="front-div-button-text">LinkedIn</p>
                   <img
                     className="front-div-button-img"
-                    src="../images/gray.jpg"
+                    src="./images/gray.jpg"
                     alt="gray"
                   />
                 </button>
@@ -111,73 +111,73 @@ export default function Home() {
             <h3 className="skills-class">Languages</h3>
             <div className="skills-box-div">
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>Java</p>
               </div>
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>HTML</p>
               </div>
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>CSS</p>
               </div>
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>Javascript</p>
               </div>
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>C</p>
               </div>
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>C++</p>
               </div>
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>C#</p>
               </div>
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>Python</p>
               </div>
             </div>
             <h3 className="skills-class">Technology</h3>
             <div className="skills-box-div">
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>Express.js</p>
               </div>
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>MongoDB</p>
               </div>
             </div>
             <h3 className="skills-class">Tools</h3>
             <div className="skills-box-div">
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>Unreal Engine</p>
               </div>
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>Unity</p>
               </div>
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>Autodesk Inventor</p>
               </div>
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>Blender</p>
               </div>
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>Figma</p>
               </div>
               <div className="skills-box">
-                <img src="../images/gray.jpg" alt="gray" />
+                <img src="./images/gray.jpg" alt="gray" />
                 <p>Flutter</p>
               </div>
             </div>
@@ -198,7 +198,7 @@ export default function Home() {
                   <br />
                 </p>
               </div>
-              <img src="../images/gray.jpg" alt="gray" />
+              <img src="./images/gray.jpg" alt="gray" />
             </div>
           </section>
           <section className="experience-section" id="experience">
@@ -223,7 +223,7 @@ export default function Home() {
                     </p>
                     <p className="project-box-desc-techused">Used: [ ] [ ] [ ] [ ]</p>
                   </div>
-                  <img src="../images/gray.jpg" alt="gray" />
+                  <img src="./images/gray.jpg" alt="gray" />
                 </div>
                 <div className="project-box-background" />
               </div>
@@ -237,7 +237,7 @@ export default function Home() {
                     </p>
                     <p className="project-box-desc-techused">Used: [ ] [ ] [ ] [ ]</p>
                   </div>
-                  <img src="../images/gray.jpg" alt="gray" />
+                  <img src="./images/gray.jpg" alt="gray" />
                 </div>
                 <div className="project-box-background" />
               </div>
@@ -251,7 +251,7 @@ export default function Home() {
                     </p>
                     <p className="project-box-desc-techused">Used: [ ] [ ] [ ] [ ]</p>
                   </div>
-                  <img src="../images/gray.jpg" alt="gray" />
+                  <img src="./images/gray.jpg" alt="gray" />
                 </div>
                 <div className="project-box-background" />
               </div>
