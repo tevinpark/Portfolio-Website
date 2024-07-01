@@ -17,7 +17,7 @@ export default function Project() {
                 rel="stylesheet"
             />
             <title>{id}</title>
-            <link rel="stylesheet" href="../stylesheets/styles.css" />
+            <link rel="stylesheet" href="./public/stylesheets/styles.css" />
             </>
         </Head>
         <p>{id}</p>

@@ -14,7 +14,7 @@ export default function Home() {
                 rel="stylesheet"
             />
             <title>Tevin Park</title>
-            <link rel="stylesheet" href="../stylesheets/styles.css" />
+            <link rel="stylesheet" href="./stylesheets/styles.css" />
             </>
         </Head>
     <div class="wrapper">
@@ -305,7 +305,7 @@ export default function Home() {
             </p>
           </section>
         </div>
-        <Script src="../js/index.js"></Script>
+        <Script src="./js/index.js"></Script>
     </div>
       </>
     

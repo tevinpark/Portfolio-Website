@@ -14,7 +14,7 @@ export default function ProjectsList() {
                 rel="stylesheet"
             />
             <title>Projects</title>
-            <link rel="stylesheet" href="../stylesheets/styles.css" />
+            <link rel="stylesheet" href="./stylesheets/styles.css" />
             </>
         </Head>
         <p>Projects List</p>
