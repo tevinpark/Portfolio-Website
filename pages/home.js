@@ -1,8 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
 import Script from 'next/script'
+import { useRouter } from 'next/router'
 
 export default function Home() {
+  const router = useRouter()
     return (
         <>
         <Head>
@@ -17,8 +19,7 @@ export default function Home() {
             <link rel="stylesheet" href="./stylesheets/styles.css" />
             </>
         </Head>
-    <div class="wrapper">
-        <div className="side-nav-wrapper">
+    <div className="wrapper">
           <nav className="side-nav">
             <ul>
               <li>
@@ -58,7 +59,6 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-        </div>
         <div className="home">
           <section className="front" id="front">
             <div className="front-div">
@@ -211,7 +211,7 @@ export default function Home() {
             <div className="project-box-div">
               <div
                 className="project-box"
-                onclick="window.location.href = 'project_macroplanner.html';"
+                onClick={() => router.push('/projects/macroplanner')}
               >
                 <div className="project-box-desc">
                   <div>
@@ -227,7 +227,10 @@ export default function Home() {
                 </div>
                 <div className="project-box-background" />
               </div>
-              <div className="project-box">
+              <div 
+                className="project-box"
+                onClick={() => router.push('/projects/chasedown')}
+              >
                 <div className="project-box-desc">
                   <div>
                     <p className="project-box-desc-name">ChaseDown</p>
@@ -241,7 +244,10 @@ export default function Home() {
                 </div>
                 <div className="project-box-background" />
               </div>
-              <div className="project-box">
+              <div 
+                className="project-box"
+                onClick={() => router.push('/projects/lyfegoals')}
+              >
                 <div className="project-box-desc">
                   <div>
                     <p className="project-box-desc-name">LyfeGoals</p>
