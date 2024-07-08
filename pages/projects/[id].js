@@ -85,7 +85,7 @@ function Project() {
                         ProjectData && ProjectData.map(project => {
                             if (project.id == id) {
                                 return (
-                                    <div className='project-page-front'>
+                                    <div key={ project.id } className='project-page-front'>
                                         <div className='project-page-front-desc'>
                                             <h1 className='project-page-front-name'>{ project.name }</h1>
                                             <hr className="main-header-line" />
@@ -94,6 +94,7 @@ function Project() {
                                         </div>
                                         <img
                                             className="project-page-front-img"
+                                            key={ project.mainImage }
                                             src={ project.mainImage }
                                             alt={ project.mainImage }
                                         />
@@ -107,11 +108,12 @@ function Project() {
                             ProjectData && ProjectData.map(project => {
                                 if (project.id == id) {
                                     return (
-                                        <div className={project.imageDivClass}>
+                                        <div key={ project.id } className={project.imageDivClass}>
                                             {project.images && project.images.map(images => {
                                                 return (
                                                     <img
                                                         className={images.imageClass}
+                                                        key={images.imageLink}
                                                         src={images.imageLink}
                                                         alt={images.imageLink}
                                                     ></img>
@@ -136,10 +138,10 @@ function Project() {
                             ProjectData && ProjectData.map(project => {
                                 if (project.id == id) {
                                     return (
-                                        <div className="project-page-tools-used-container">
+                                        <div key={ project.id } className="project-page-tools-used-container">
                                             {project.tools && project.tools.map(tools => {
                                                 return (
-                                                    <div className="skills-box">
+                                                    <div key={project.id} className="skills-box">
                                                         <img
                                                             src={tools.toolImg}
                                                             alt={tools.toolImg}
@@ -188,10 +190,10 @@ function Project() {
                             ProjectData && ProjectData.map(project => {
                                 if (project.id == id) {
                                     return (
-                                        <div>
+                                        <div key={project.id}>
                                             {project.overview && project.overview.map(overview => {
                                                 return (
-                                                    <div>
+                                                    <div key={project.id}>
                                                         <p className='overview-text'>{overview}</p>
                                                     </div>
                                                 )
